@@ -10,7 +10,7 @@
       "application": "dinghy",
       "keepWaitingPipelines": false,
       "limitConcurrent": {{ variable limit }},
-      "name": "Simple",
+      "name": "Simplee",
       "stages": [
         {{ module "./wait.stage.module"  {Name: "waitTime", Value: 10}  }}
       ],
