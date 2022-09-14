@@ -16,7 +16,7 @@
          "stages":[
             {
                "isNew":true,
-               "name":"Wait",
+               "name":"Waitt",
                "refId":"1",
                "requisiteStageRefIds":[
                   
