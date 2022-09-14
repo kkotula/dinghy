@@ -1,21 +1,33 @@
 {
-  "application": "dinghy",
-  "variables": {
-    "WaitTime1": 60,
-    "WaitTime2": 60,
-    "limit": 1
-  },
-  "pipelines": [
-    {
-      "application": "dinghy",
-      "keepWaitingPipelines": false,
-      "limitConcurrent": {{ variable limit }},
-      "name": "Simpleee",
-      "stages": [
-        {{ module "./wait.stage.module"  {Name: "waitTime", Value: 10}  }}
-      ],
-      "triggers": []
-    },
-    {{ module "./simple.pipeline.module" }}
-  ]
+   "application":"dinghy",
+   "variables":{
+      "WaitTime1":60,
+      "WaitTime2":60,
+      "limit":1
+   },
+   "pipelines":[
+      {
+         "application" : "dinghy",
+         "keepWaitingPipelines":false,
+         "lastModifiedBy":"kkotula",
+         "limitConcurrent":true,
+         "schema":"1",
+         "spelEvaluator":"v4",
+         "stages":[
+            {
+               "isNew":true,
+               "name":"Wait",
+               "refId":"1",
+               "requisiteStageRefIds":[
+                  
+               ],
+               "type":"wait",
+               "waitTime":5
+            }
+         ],
+         "triggers":[
+            
+         ]
+      }
+   ]
 }
