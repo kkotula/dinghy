@@ -15,7 +15,7 @@
          "spelEvaluator":"v4",
          "stages":[
             {
-               "isNew":true,
+               "isNew":false,
                "name":"Waitt",
                "refId":"1",
                "requisiteStageRefIds":[
