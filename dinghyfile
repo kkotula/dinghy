@@ -40,7 +40,7 @@
     "permissions": {
       "READ": [ "myproductteam", "mysalesteyam", "test" ],
       "EXECUTE": [ "mydevteam", "test" ],
-      "WRITE": [ "mydevopsteam" ]
+      "WRITE": [ "mydevopsteam", "write"]
     }
   }
 }
