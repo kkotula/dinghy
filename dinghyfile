@@ -1,5 +1,8 @@
 {
    "application":"dinghy",
+   "globals": {
+    "save_app_on_update": true
+   },
    "pipelines":[
       {
          "application":"dinghy",
