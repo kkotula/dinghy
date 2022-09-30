@@ -32,5 +32,12 @@
         }
          ]
       }
-   ]
+   ],
+   "spec": {
+    "permissions": {
+      "READ": [ "myproductteam", "mysalesteam" ],
+      "EXECUTE": [ "mydevteam" ],
+      "WRITE": [ "mydevopsteam" ]
+    }
+  }
 }
