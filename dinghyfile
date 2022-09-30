@@ -1,32 +1,35 @@
 {
    "application":"dinghy",
-   "variables":{
-      "WaitTime1":60,
-      "WaitTime2":60,
-      "limit":1
-   },
    "pipelines":[
       {
-         "application" : "dinghy",
+         "application":"dinghy",
+         "name":"simplepipeline",
          "keepWaitingPipelines":false,
-         "lastModifiedBy":"kkotula",
+         "lastModifiedBy":"anonymous",
          "limitConcurrent":true,
          "schema":"1",
          "spelEvaluator":"v4",
          "stages":[
             {
-               "isNew":false,
-               "name":"Waitt",
+               "name":"Waaait",
                "refId":"1",
                "requisiteStageRefIds":[
-                  
+
                ],
                "type":"wait",
-               "waitTime":5
+               "waitTime":15
             }
          ],
          "triggers":[
-            
+         {
+            "branch": "main",
+            "enabled": true,
+            "project": "gowrigirish",
+            "secret": "xxxxxxxx",
+            "slug": "testingrepo",
+            "source": "github",
+            "type": "git"
+        }
          ]
       }
    ]
