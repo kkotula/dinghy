@@ -35,7 +35,7 @@
    ],
    "spec": {
     "permissions": {
-      "READ": [ "myproductteam", "mysalesteam" ],
+      "READ": [ "myproductteam", "mysalesteyam" ],
       "EXECUTE": [ "mydevteam" ],
       "WRITE": [ "mydevopsteam" ]
     }
