@@ -27,7 +27,7 @@
          {
             "branch": "main",
             "enabled": true,
-            "project": "gowrigirish",
+            "project": "gowrigirissh",
             "secret": "xxxxxxxx",
             "slug": "testingrepo",
             "source": "github",
