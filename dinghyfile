@@ -1,7 +1,8 @@
 {
    "application":"dinghy",
    "globals": {
-    "save_app_on_update": true
+    "save_app_on_update": true,
+    "check_user_write_access" : true
    },
    "pipelines":[
       {
