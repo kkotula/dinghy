@@ -35,6 +35,37 @@
             "type": "git"
         }
          ]
+      },
+      {
+         "application":"dinghy",
+         "name":"simplepipeline2",
+         "keepWaitingPipelines":false,
+         "lastModifiedBy":"anonymous",
+         "limitConcurrent":true,
+         "schema":"1",
+         "spelEvaluator":"v4",
+         "stages":[
+            {
+               "name":"Waaait",
+               "refId":"1",
+               "requisiteStageRefIds":[
+
+               ],
+               "type":"wait",
+               "waitTime":15
+            }
+         ],
+         "triggers":[
+         {
+            "branch": "main",
+            "enabled": true,
+            "project": "gowrigsirissh",
+            "secret": "xxxxxxxx",
+            "slug": "testingrepo",
+            "source": "github",
+            "type": "git"
+        }
+         ]
       }
    ],
     "spec": {
